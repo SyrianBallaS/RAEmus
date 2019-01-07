@@ -2,11 +2,11 @@
 #define	VERSION_H
 
 #ifndef	BASE_TITLE
-#define	BASE_TITLE		"QUASI88"
+#define	BASE_TITLE	"QUASI88"
 #endif
 
 #ifndef	BASE_VERSION
-#define	BASE_VERSION	"0.6.5"
+#define	BASE_VERSION	"0.6.6"
 #endif
 
 #ifndef	BASE_COMMENT
@@ -16,15 +16,19 @@
 #if USE_RETROACHIEVEMENTS
 
 #ifndef RAQ_TITLE
-#define RAQ_TITLE "RAQUASI88"
+#define RAQ_TITLE 	"RAQUASI88"
 #endif
 
 #ifndef RAQ_VERSION
-#define RAQ_VERSION "1.0.0"
+#define RAQ_VERSION 	"1.0.0"
 #endif
 
 #ifndef Q_TITLE
 #define Q_TITLE RAQ_TITLE
+#endif
+
+#ifndef Q_TITLE_KANJI
+#define Q_TITLE_KANJI RAQ_TITLE
 #endif
 
 #ifndef Q_VERSION
@@ -35,6 +39,10 @@
 
 #ifndef Q_TITLE
 #define Q_TITLE BASE_TITLE
+#endif
+
+#ifndef Q_TITLE_KANJI
+#define Q_TITLE_KANJI BASE_TITLE "改"
 #endif
 
 #ifndef Q_VERSION
